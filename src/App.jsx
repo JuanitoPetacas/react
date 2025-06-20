@@ -58,6 +58,10 @@ function App() {
             <p style={{color: "red"}}>{errorDato}</p>
 
            ) : datoGato ? (
+
+      (data.results.map((element)=>
+<---- code aqui
+))
             <p>{datoGato}</p>
 
            ) : (
